@@ -1,0 +1,437 @@
+/* Terminal Theme for IRCCloud,  version 1.1.4.3 | by Ad@m <http://adam.hbang.ws> | licensed under the MIT License <http://adam.mit-license.org> */
+
+@-moz-document url-prefix("https://irccloud.com/"), url-prefix("https://www.irccloud.com/"), url-prefix("https://alpha.irccloud.com/"){
+	::selection {
+	    background: #9a9a9a;
+	    color: #ccc;
+	}
+
+	.viewport {
+	    background: black;
+	    font-family: monospace;
+	}
+
+	.viewport * {
+	    color: white;
+	}
+
+	.viewport .self {
+	    background: #353535 !important;
+	}
+
+	body.app, #headercell *, .viewport, div.shim, td.nickcell a.nick, td.inputcell textarea, div.log div.messageRow, div.log span.author, div.log div.me a.user, input, textarea, button, select {
+	    font-family: Menlo, "Ubuntu Mono", Consolas, monospace;
+	}
+
+	body.app, #headercell *, .viewport {
+	    background: black !important;
+	    color: white !important;
+	    border-color: #444 !important;
+	}
+
+	h1#title span.logo, h1#title span.beta {
+	    display: none;
+	}
+
+	ul.memberList, div.memberwrapper {
+	    background: black;
+	    border-width: 0;
+	}
+
+	ul.memberList li h2, ul.memberList li h2 span.memberCount {
+	    color: white !important;
+	    border-width: 0;
+	}
+
+	ul.memberList li.owner ul, ul.memberList li.owner h2 {
+	    background: #454545;
+	}
+
+	ul.memberList li.admin ul, ul.memberList li.admin h2 {
+	    background: #343434;
+	}
+
+	ul.memberList li.ops ul, ul.memberList li.ops h2 {
+	    background: #232323;
+	}
+
+	ul.memberList li.halfops ul, ul.memberList li.halfops h2 {
+	    background: #121212;
+	}
+
+	ul.memberList li.voiced ul, ul.memberList li.voiced h2 {
+	    background: #010101;
+	}
+
+	ul.memberList li.members ul, ul.memberList li.members h2 {
+	    background: black;
+	}
+
+	ul.memberList li ul {
+	    border-color: #555 !important;
+	}
+
+	ul.memberList li h2 {
+	    font-weight: bold;
+	}
+
+	.bufferHead {
+	    background-color: #333 !important;
+	    color: white !important;
+	    border-width: 0;
+	}
+
+	td.statuscell div.status h2.bufferHeading span.label, #buffers .active a.buffer {
+	    color: #efefef;
+	}
+
+	td.statuscell div.status h2.bufferHeading {
+	    color: #eee;
+	}
+
+	ul.memberList a {
+	    color: white;
+	}
+
+	div.log div.status {
+	    background: #565656;
+	}
+
+	div.log span.message a.bufferLink.user {
+	    color: #dedede;
+	}
+
+	div.log span.message a.bufferLink.user:hover {
+	    color: #ededed;
+	}
+
+	div.log div.lastSeen span.text, div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.fetch span.text {
+	    background: #111;
+	    color: white;
+	}
+
+	div.log div.highlight {
+	    background: #f00000;
+	}
+
+	div.log div.groupedJoinPart {
+	    background: #494949;
+	    border-color: #767676;
+	}
+
+	div.log div.groupedJoinPart:hover, div.log div.groupedJoinPart.expanded {
+	    background: #767676;
+	    border-color: #878787;
+	}
+
+	div.log div.groupedJoinPart.expanded:hover {
+	    background: #878787;
+	    border-color: #8a8a8a;
+	}
+
+	div.log span.prefix {
+	    color: #bbb;
+	    font-family: arial, sans-serif;
+	}
+
+	div.log div.dateChange p, div.dateWrapper table, div.dateWrapper td {
+	    border-width: 0;
+	    color: #212121;
+	    background: #bababa;
+	}
+
+	div.log div.dateChange p {
+	    padding-bottom: 5px;
+	}
+
+	td.bufferinputcell {
+	    background: #010101;
+	}
+
+	td.nickcell {
+	    background: #000;
+	    border-width: 0;
+	}
+
+	td.nickcell a.nick {
+	    color: white;
+	}
+
+	div.nickinputwrapper {
+	    border-width: 0;
+	    background: black;
+	}
+
+	table.nickinput {
+	    border-radius: 0;
+	    -webkit-border-radius: 0;
+	    -moz-border-radius: 0;
+	}
+
+	::-webkit-scrollbar-thumb {;
+	}
+
+	#channelContextMenu ul.modeList {
+	    color: #777;
+	}
+
+	* {
+	    border-radius: 0 !important;
+	    -webkit-border-radius: 0 !important;
+	    -moz-border-radius: 0 !important;
+	    box-shadow: none;
+	    -webkit-box-shadow: none;
+	}
+
+	.extras span.extrasBar {
+	    background: #1010ef;
+	    color: #fafafa;
+	}
+
+	.extras span.extrasBar:hover {
+	    background: #2020d0;
+	    color: #dcdcdc;
+	}
+
+	.extras span.extrasDismiss {
+	    background: #0055ff;
+	}
+
+	.extras span.extrasDismiss:hover {
+	    background: #0090ff;
+	}
+
+	td.inputcell, td.inputcell textarea {
+	    background: #121212;
+	    color: white;
+	}
+
+	#buffers h2 a.join {
+	    background: url("data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO5JREFUeNpi/P//PwMlgImBQkCxASzoAh0d7e///fsvgM1rjIyMDExMjBsrKioDcBrw7+8/ARd3T5w27tm53R+vF/5BbT5y5BjDsWPHGcxMjMA0iI8sj9MFMKezsDAjbGFiAmJUeZwGgMCPnz8Z8nIy4XwY+9DR44QDkRFky9//DAsXLwPblhAXzbBg0VJwACrIK4Dl8bsAqBDkTx4eHrgQLy8vwv+MjPgNAEYT2M88PBBNO3fvh7MhYcFIKBAZPh89vI/3/7//DP/RvMYI1Pzt2/eDKA5GD1WgXw2AFDOexPcBqOcuTgOGXmYCCDAAPw1eKIwayIcAAAAASUVORK5CYII=") center center no-repeat;
+	    opacity: 0.8;
+	}
+
+	#buffers h2 a.join:hover {
+	    background-position: center center;
+	    opacity: 1;
+	}
+
+	div.log div.groupedJoinPart span.mode {
+	    color: #9e9e9e;
+	}
+
+	#buffers h2 a.buffer {
+	    background-color: #464646;
+	    background-image: none;
+	    color: #eee;
+	    font-weight: bold;
+	    border-width: 0;
+	}
+
+	#buffers h2 a.buffer:hover {
+	    background-color: #373737;
+	}
+
+	table.buffer {
+	    border-width: 0;
+	}
+
+	::-webkit-scrollbar-thumb {
+	    background: #313131;
+	    border-width: 0;
+	    border-radius: 0;
+	    -webkit-border-radius: 0;
+	}
+
+	::-webkit-scrollbar-track-piece {
+	    background: #646464;
+	    border-width: 0;
+	    border-radius: 0;
+	    -webkit-border-radius: 0;
+	}
+
+	::-webkit-scrollbar-thumb:inactive {
+	    background: #535353;
+	}
+
+	::-webkit-scrollbar-track-piece:inactive {
+	    background: #868686;
+	}
+
+	.sidebarIndicator, .sidebarIndicatorBadged {
+	    background: #1010ef;
+	    border-width: 0;
+	}
+
+	.sidebarIndicatorBadged {
+	    background: #f00000;
+	}
+
+	#buffers .selected a.buffer, #buffers .selected a.buffer:hover, #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover {
+	    background-color: #0000f0;
+	    border-width: 0;
+	}
+
+	#buffers li.connection {
+	    background: #222;
+	}
+
+	#buffers a.buffer {
+	    color: #eee;
+	}
+
+	#buffers a.buffer:hover {
+	    background-color: #757575;
+	}
+
+	#buffers ul.buffers .active.unread a.buffer, #buffers h2.active.unread {
+	    border-left-color: #0000f0;
+	}
+
+	#buffers p.archiveToggle a:hover {
+	    background: #858585;
+	    color: white;
+	}
+
+	p#addNetwork a, p#addNetwork a:hover, p#addNetwork.selected a, p#addNetwork.selected a:hover {
+	    background: transparent;
+	    padding: 0 4px;
+	    margin: 0;
+	    border-width: 0;
+	    color: white;
+	}
+
+	p#addNetwork.selected a, p#addNetwork.selected a:hover {
+	    background: #333;
+	}
+
+	#footer, #headercell a, h1#title a, #footer a {
+	    color: white;
+	}
+
+	p#addNetwork a:hover, #headercell a:hover, h1#title a:hover, #footer a:hover {
+	    color: #bbb;
+	}
+
+	div.log span.author a, div.log div.me span.message a.author, td.nickcell a.nick {
+	    color: #ddd;
+	}
+
+	button b.bullet {
+	    color: #eee;
+	}
+
+	td.statuscell div.status p.buttons button span, .overlaycontainer button.confirm span, .overlaycontainer button.close span, button.action span, button span, button a, td.statuscell div.status p.buttons button.active span, .overlaycontainer button.confirm.active span, .overlaycontainer button.close.active span, button.action.active span, button span:hover, button a:hover, button:hover span, button:hover a, button.action:hover span, button.action:hover a {
+	    border-color: #121212;
+	    background: #121212;
+	    color: white;
+	    box-shadow: none !important;
+	    -webkit-box-shadow: none !important;
+	}
+
+	#sidebar #limits {
+	    background: #333;
+	    color: #efefef;
+	}
+
+	#limits p#upgradeLink a {
+	    background: #85de85;
+	    color: black;
+	}
+
+	#limits p#upgradeLink a:hover {
+	    background: #90ef90;
+	    color: #222;
+	}
+
+	#buffers ul.archives {
+	    background: #565656;
+	}
+
+	#buffers ul.archives a:hover {
+	    background: #777;
+	    color: #ccc;
+	}
+
+	#buffers p.openArchiveToggle a, #buffers p.openArchiveToggle a:hover {
+	    background: #777;
+	    color: #eee;
+	    font-weight: bold;
+	}
+
+	.viewport .overlaycontainer {
+	    background: #555;
+	    border-width: 0;
+	}
+
+	div.log div.notice, div.log div.joinPartGroup.expanded div.messageRow {
+	    background: #444;
+	}
+
+	div.log div.groupedLines {
+	    background: #636363;
+	    color: white;
+	    border-width: 0;
+	}
+
+	div.log div.chat a, div.log div.status a, div.log div.notice a, div.log div.groupedLines a, div.log div.warning a, div.log div.error a, div.log div.table a, div.log div.me a {
+	    color: #1010ef;
+	}
+
+	form.addNetworkForm, .mainContainer {
+	    background: black;
+	    border-color: black;
+	}
+
+	#inviteForm h1, .explanation, .mainForm, .mainContent {
+	    color: white;
+	}
+
+	body.disconnected, body.disconnected td#headercell * {
+	    background: orange !important;
+	}
+
+	.overlayTable tr.even td {
+	    background: #767676;
+	}
+
+	.overlay table thead th, .overlay table thead td {
+	    background: #424242;
+	}
+
+	.overlay .heading h2 {
+	    font-weight: bold;
+	}
+
+	.overlay table td, .overlay table th {
+	    border-left-color: #252525;
+	}
+
+	#sidebar .info {
+	    background: #212121;
+	}
+
+	#sidebar .info p.button, #sidebar .info p.more {
+	    background: #343434;
+	}
+
+	#sidebar .info p.form .input, #sidebar .info p.form .input:focus {
+	    border-color: #555;
+	}
+
+	form.addNetworkForm h2 span, form.addNetworkForm h2 a {
+	    background-color: black;
+	}
+
+	#memberContextMenu div.userContext {
+	    color: black;
+	}
+
+	.form .input {
+	    color: black;
+	}
+
+	.connection.disconnected {
+	    opacity: 0.75;
+	}
+}
